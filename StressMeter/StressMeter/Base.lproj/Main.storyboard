@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StressMeter" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;State TBD&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YoX-zv-N9F" userLabel="State Label">
+                                <rect key="frame" x="30" y="40" width="540" height="29"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Services TBD&gt;" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="il7-up-0WJ" userLabel="Services Label">
+                                <rect key="frame" x="30" y="125.5" width="540" height="62"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="bYH-Tc-PcE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;Name TBD&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOb-u1-gVS" userLabel="Sensor Name Label">
+                                <rect key="frame" x="30" y="77" width="540" height="29"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;RSSI TBD&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdH-mi-yg9" userLabel="RSSI Label">
+                                <rect key="frame" x="30" y="207.5" width="540" height="29"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ze6-5b-NJO" userLabel="HR Label">
+                                <rect key="frame" x="30" y="297" width="540" height="143.5"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;RR Intervals TBD&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBy-wW-wRz">
+                                <rect key="frame" x="30" y="517.5" width="540" height="29"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RR Intervals" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8m-K7-jZq">
+                                <rect key="frame" x="30" y="480.5" width="540" height="29"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fBy-wW-wRz" firstAttribute="top" secondItem="Ze6-5b-NJO" secondAttribute="bottom" constant="20" id="7Xb-tF-AFx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ze6-5b-NJO" secondAttribute="trailing" constant="10" id="9ot-L1-pVw"/>
+                            <constraint firstItem="mdH-mi-yg9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="AjR-Jf-DE9"/>
+                            <constraint firstItem="mdH-mi-yg9" firstAttribute="top" secondItem="il7-up-0WJ" secondAttribute="bottom" constant="20" id="Bk2-1p-4ik"/>
+                            <constraint firstItem="nOb-u1-gVS" firstAttribute="top" secondItem="YoX-zv-N9F" secondAttribute="bottom" constant="8" id="F3H-wd-xnC"/>
+                            <constraint firstItem="O8m-K7-jZq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="GaT-WT-asC"/>
+                            <constraint firstItem="il7-up-0WJ" firstAttribute="top" secondItem="nOb-u1-gVS" secondAttribute="bottom" constant="20" id="IH3-K6-Ksq"/>
+                            <constraint firstItem="nOb-u1-gVS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="IZn-C9-JE1"/>
+                            <constraint firstItem="YoX-zv-N9F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="NC5-hH-9SL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nOb-u1-gVS" secondAttribute="trailing" constant="10" id="PkK-Sv-YQc"/>
+                            <constraint firstItem="fBy-wW-wRz" firstAttribute="top" secondItem="O8m-K7-jZq" secondAttribute="bottom" constant="8" id="WD1-fy-pYU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YoX-zv-N9F" secondAttribute="trailing" constant="10" id="X7V-Hn-0lC"/>
+                            <constraint firstItem="Ze6-5b-NJO" firstAttribute="top" secondItem="mdH-mi-yg9" secondAttribute="bottom" constant="60" id="Yzz-su-ZSE"/>
+                            <constraint firstItem="YoX-zv-N9F" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="b3Y-Hr-7b8"/>
+                            <constraint firstItem="il7-up-0WJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="eMg-tf-mn6"/>
+                            <constraint firstItem="YoX-zv-N9F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ekw-T8-IUK"/>
+                            <constraint firstItem="O8m-K7-jZq" firstAttribute="top" secondItem="Ze6-5b-NJO" secondAttribute="bottom" constant="40" id="mv5-Mt-nly"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mdH-mi-yg9" secondAttribute="trailing" constant="10" id="nIK-Rg-ohl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fBy-wW-wRz" secondAttribute="trailing" constant="10" id="nZC-NV-Fre"/>
+                            <constraint firstItem="Ze6-5b-NJO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="ngd-NY-lYf"/>
+                            <constraint firstItem="fBy-wW-wRz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="pje-30-oX6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O8m-K7-jZq" secondAttribute="trailing" constant="10" id="q4m-dc-3sA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="il7-up-0WJ" secondAttribute="trailing" constant="10" id="rvX-dv-le3"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ekw-T8-IUK"/>
+                                <exclude reference="7Xb-tF-AFx"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="RSSILabel" destination="mdH-mi-yg9" id="Fl6-WH-X5a"/>
+                        <outlet property="heartRateLabel" destination="Ze6-5b-NJO" id="Kb0-cq-9NM"/>
+                        <outlet property="hrSensorNameLabel" destination="nOb-u1-gVS" id="JW4-2e-WnE"/>
+                        <outlet property="rrIntervalsLabel" destination="fBy-wW-wRz" id="H3o-W3-GPX"/>
+                        <outlet property="servicesLabel" destination="il7-up-0WJ" id="OdM-if-noB"/>
+                        <outlet property="stateLabel" destination="YoX-zv-N9F" id="F1K-SP-eDB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="506" y="494"/>
+        </scene>
+    </scenes>
+</document>
